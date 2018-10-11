@@ -1,9 +1,9 @@
 # Prime Number Calculator Test
 
 ## Task
-Fork this repo, and finish writing the function findPrimeNumbers inside PrimeNumberCalculator.
+Fork this repo, and finish writing the function `findPrimeNumbers` inside `PrimeNumberCalculator`.
 
-The function will take a from and a to, and return a sequence of the prime numbers inside of that array.
+The function will take a from integer and a to integer, and return a sequence of the prime numbers between those two numbers.
 
 ## Examples
 ```scala
