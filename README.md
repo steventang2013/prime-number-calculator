@@ -15,9 +15,9 @@ would return `Seq(11,13,17,19)`
 Download and install sbt
 
 ## How to run
-- From the command line navigate to the project location and type `sbt`
-- Compile your function with `compile`
-- Test your function with `test`
+- From the command line navigate to the project location
+- Compile your function with `sbt compile`
+- Test your function with `sbt test`
 
 ## Recommendations
 I strongly recommend downloading and installing IntelliJ, and adding in the scala plugin as it's incredibly useful.
