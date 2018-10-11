@@ -1,0 +1,15 @@
+.DS_Store
+.idea/
+logs
+project/project/target
+project/target
+target
+tmp
+.history
+/.idea
+/*.iml
+/.idea_modules
+/.classpath
+/.project
+
+buildinfo.properties
