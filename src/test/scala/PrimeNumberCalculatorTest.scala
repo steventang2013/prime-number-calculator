@@ -151,6 +151,11 @@ class PrimeNumberCalculatorTest extends WordSpecLike with Matchers with MockitoS
         9901, 9907, 9923, 9929, 9931, 9941, 9949, 9967, 9973))
     }
 
+    "throw IllegalArgumentException if to: Int < 2" in {
+      assertThrows[IllegalArgumentException] {
+        PrimeNumberCalculator.findPrimeNumbers(-1000, 1)
+      }
+    }
   }
 
 }
