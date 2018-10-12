@@ -2,9 +2,6 @@
 object PrimeNumberCalculator {
 
   def findPrimeNumbers(from: Int, to: Int): Seq[Int] = {
-    // to must be >= 2 or else we do not have a valid sequence
-    require(to >= 2)
-
     // filter all values between 2 and to that are primes (we don't care about from values < 2)
     if (from < 2)
       2.to(to).filter(x => isPrime(x)).toList
